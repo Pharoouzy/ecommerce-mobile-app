@@ -17,6 +17,12 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
+
+  final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
+  Future<SharedPreferences> _preferences = SharedPreferences.getInstance();
+  SharedPreferences _sharedPreferences;
+  bool isError =
+
   @override
   Widget build(BuildContext context) {
     return Container();

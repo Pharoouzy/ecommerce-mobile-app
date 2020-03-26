@@ -1,4 +1,4 @@
-# olakineasy
+# Ecommerce Mobile Application
 
 A new Flutter application.
 
